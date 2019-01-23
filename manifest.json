@@ -1,0 +1,18 @@
+{
+  "name": "591租屋網筆記",
+  "version": "1.0",
+  "description": "快速加入物件優缺點，提升找租屋效率。",
+  "permissions": ["storage"],
+  "content_scripts": [{
+    "matches": ["https://rent.591.com.tw/*"],
+    "js": ["content_scripts.js"],
+    "css": ["content_scripts.css"]
+  }],
+  "icons": {
+    "16": "images/591_rent_notes16.png",
+    "32": "images/591_rent_notes32.png",
+    "48": "images/591_rent_notes48.png",
+    "128": "images/591_rent_notes128.png"
+  },
+  "manifest_version": 2
+}

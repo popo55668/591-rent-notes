@@ -1,0 +1,24 @@
+.rentCloseIcon {
+  padding: 3px;
+}
+
+.rentNote {
+  border: 1px solid #D4D4D4;
+  padding: 3px;
+  margin-left: 10px;
+}
+
+.rentInputDiv {
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 1em;
+  font-family: sans-serif;
+}
+.rentInputElement {
+  font-size: inherit;
+  padding: 0.2em;
+  margin: 0.1em 0.1em;
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
